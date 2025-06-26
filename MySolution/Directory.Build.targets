@@ -1,0 +1,7 @@
+﻿<Project>
+  <ItemGroup>
+    <None Update="Resources\**">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>
