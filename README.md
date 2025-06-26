@@ -4,6 +4,26 @@
 
 This repository provides a **boilerplate setup for ASP.NET Core solutions**, designed to simplify configuration and enforce consistency across multiple projects in the same solution. It follows modern practices using global `.editorconfig`, `Directory.Build.*` files, and centralized package versioning via `Directory.Packages.props`.
 
+## 🧪 Requirements
+ - [.NET SDK 9.0 (preview or later)](https://dotnet.microsoft.com/)
+ - Visual Studio 2022+ or JetBrains Rider
+ - MSBuild 17.0+
+
+## 🚀 How to Use
+1. Clone this repository.
+2. Add your projects inside the solution.
+3. The global configuration files will be applied automatically.
+4. Customize as needed while preserving the modular structure.
+
+## 📦 Benefits
+ - Avoid duplication in .csproj files
+ - Centralized NuGet version management
+ - Consistent code style across the solution
+ - Build validation with strict rules and analyzers
+
+## 📄 License
+This project is licensed under the MIT License.
+
 ---
 
 ## 📁 Configuration Structure
@@ -82,22 +102,3 @@ Editar
 ```
 This prevents automatic copying of files inside Resources\** to the output directory.
 
-## 🧪 Requirements
- - [.NET SDK 9.0 (preview or later)](https://dotnet.microsoft.com/)
- - Visual Studio 2022+ or JetBrains Rider
- - MSBuild 17.0+
-
-## 🚀 How to Use
-1. Clone this repository.
-2. Add your projects inside the solution.
-3. The global configuration files will be applied automatically.
-4. Customize as needed while preserving the modular structure.
-
-## 📦 Benefits
- - Avoid duplication in .csproj files
- - Centralized NuGet version management
- - Consistent code style across the solution
- - Build validation with strict rules and analyzers
-
-## 📄 License
-This project is licensed under the MIT License.
